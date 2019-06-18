@@ -11,5 +11,8 @@ class CreateUserForm(UserCreationForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields["username"].label = "Display name"
+        self.fields["username"].label = "Username"
         self.fields["email"].label = "Email address"
+
+class LoginUserForm():
+    pass
