@@ -1,4 +1,6 @@
 .vscode/
-bookswap\accounts\__pycache__
-bookswap\books\__pycache__
-bookswap\bookswap\__pycache__
+bookswap/accounts/__pycache__
+bookswap/books/__pycache__
+bookswap/bookswap/__pycache__
+.env
+bookswap/venv/
